@@ -1,0 +1,10 @@
+stages:
+  - code-test
+  
+code-test-job:
+  stage: code-test
+  tags:
+    - test
+  script:
+    - cd src/
+    - make test
