@@ -1,15 +1,7 @@
-### Part 1. Реализация библиотеки s21_containers.h
+## Implementation of the s21_containers.h library
 
-Список классов: `list` (список), `map` (словарь), `queue` (очередь), `set` (множество), `stack` (стек), `vector` (вектор).
-- Оформить решение в виде заголовочного файла `s21_containers.h`, который включает в себя другие заголовочные файлы с реализациями необходимых контейнеров (`s21_list.h`, `s21_map.h` и т.д.)
-- Предусмотреть Makefile для тестов написанной библиотеки (с целями clean, test)
+You need to implement the s21_containers.h library classes. List of classes: list, map, queue, set, stack, vector.
 
-- Программа должна быть разработана на языке C++ стандарта C++17 с использованием компилятора gcc
-- Код программы должен находиться в папке src
-- При написании кода необходимо придерживаться Google Style
-- Обязательно использовать итераторы
-- Классы обязательно должны быть шаблонными
-- Классы должны быть реализованы внутри пространства имен `s21`
-- Подготовить полное покрытие unit-тестами методов контейнерных классов c помощью библиотеки GTest
-- Запрещено копирование реализации стандартной библиотеки шаблонов (STL)
-- Необходимо соблюсти логику работы стандартной библиотеки шаблонов (STL) (в части проверок, работы с памятью и поведения в нештатных ситуациях)
+Make it as a header file s21_containers.h which includes different header files with implementations of the specified containers (s21_list.h, s21_map.h and etc.)
+Provide a Makefile for testing the library (with targets clean, test)
+The classical implementation of containers should be considered as a basis, but the final choice of implementations remains free. Except for the list - it should be implemented via the list structure rather than the array.
